@@ -1,11 +1,11 @@
 .col-12{
     background-color: aqua;
-    height: 100px;
+
     border: 1px dashed red;
 }
 .col-6{
     background-color: hsl(313, 65%, 62%);
-    height: 100px;
+   
     border: 1px dashed #6be952;
 }
 

@@ -9,29 +9,62 @@
 </head>
 <body>
     <header>
-        <h1>Bootstrap 5 responsive Grid</h1>
-        <h6>Layout a griglia con diversi brakpoint (sm, md, lg)</h6>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col text-center">
+                    <h1>Bootstrap 5 responsive Grid</h1>
+                    <p class="lead">Layout a griglia con diversi brakpoint (sm, md, lg)</p>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4"></div>
-                <div class="col-12 col-md-6 col-lg-8"></div>                
+        <div class="container ">
+            <div class="row my-4">
+                <div class="col-12 col-md-6 col-lg-4 p-4 bg-light">
+                    <h2>Colonna 1</h2>
+                    Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi tablet, due terzi su dispositivi larghi
+                </div>
+                <div class="col-12 col-md-6 col-lg-8 p-4 bg-secondary text-white">
+                    <h2>Colonna 2</h2>
+                    Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi tablet, un terzo su dispositivi larghi
+                </div>                
             </div>
         </div>
         <div class="container">
-            <div class="row mt-4">
-                <div class="col-6 col-md-4 col-lg-4"></div>
-                <div class="col-6 col-md-4 col-lg-4"></div>                
-                <div class="col-12 col-md-4 col-lg-4"></div>                
+            <div class="row my-4 text-white">
+                <div class="col-6 col-md-4 col-lg-4 p-4">
+                    <h2>Colonna 1</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi 
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 p-4">
+                    <h2>Colonna 2</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi
+                </div>                
+                <div class="col-12 col-md-4 col-lg-4 p-4">
+                    <h2>Colonna 3</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi
+                </div>                
             </div>
         </div>
         <div class="container">
-            <div class="row mt-4">
-                <div class="col-6 col-md-3 col-lg-3"></div>
-                <div class="col-6 col-md-3 col-lg-3"></div>                
-                <div class="col-6 col-md-3 col-lg-3"></div>                
-                <div class="col-6 col-md-3 col-lg-3"></div>                
+            <div class="row my-4 text-white">
+                <div class="col-6 col-md-3 col-lg-3 p-4 bg-info">
+                    <h2>Colonna 1</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 p-4 bg-warning">
+                    <h2>Colonna 2</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi
+                </div>                
+                <div class="col-6 col-md-3 col-lg-3 p-4 bg-dark">
+                    <h2>Colonna 3</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi
+                </div>                
+                <div class="col-6 col-md-3 col-lg-3 p-4 bg-light text-dark">
+                    <h2>Colonna 2</h2>
+                    Metà larghezza per dispositivi piccoli edun terzo per dispositivi medi e grandi   
+                </div>                
             </div>
         </div>
     </main>
